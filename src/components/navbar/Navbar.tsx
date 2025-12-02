@@ -22,6 +22,10 @@ function Navbar() {
                     <nav className="md:flex items-center gap-6 text-[15px] font-semibold">
 
                         <span className="text-xl px-4 text-teal-600 hover:opacity-50 cursor-pointer">
+                            <Link to="/produtos" className="text-teal-600">Produtos</Link>
+                        </span>
+
+                        <span className="text-xl px-4 text-teal-600 hover:opacity-50 cursor-pointer">
                             <Link to="/categorias" className="text-teal-600">Categorias</Link>
                         </span>
 

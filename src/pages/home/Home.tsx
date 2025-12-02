@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ModalProdutos from "../../components/produtos/modalprodutos/ModalProdutos"
 
 function Home() {
     return (
@@ -47,11 +48,9 @@ function Home() {
                         </div> */}
                         <Link
                             to="/cadastrarproduto"
-                            className='rounded text-teal-600 border-solid border-2 py-2 px-4 hover:bg-white hover:text-teal-600 
-            transition-all duration-300
-        '
+                            className='rounded text-teal-600 border-solid border-2 py-2 px-4 hover:bg-white hover:text-teal-600 transition-all duration-300'
                         >
-                            Cadastrar Produto
+                            <ModalProdutos />
                         </Link>
                     </div>
                 </div>
