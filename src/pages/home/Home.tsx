@@ -37,21 +37,18 @@ function Home() {
                     </p>
 
                     <div className="flex justify-around gap-4">
-                        {/* <div className='
+                        <div className='
                             rounded text-teal-600 
                             border-solid border-2 
                             py-2 px-4
                             hover:bg-white hover:text-teal-600 
                             transition-all duration-300
                         '>
-                            Cadastrar Produto
-                        </div> */}
-                        <Link
-                            to="/cadastrarproduto"
-                            className='rounded text-teal-600 border-solid border-2 py-2 px-4 hover:bg-white hover:text-teal-600 transition-all duration-300'
-                        >
                             <ModalProdutos />
-                        </Link>
+                        </div>
+                        
+                            
+                        
                     </div>
                 </div>
 
