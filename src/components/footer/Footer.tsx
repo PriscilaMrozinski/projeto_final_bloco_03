@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <>
-            <div className="flex justify-center text-gray-500 bg-teal-100">
+            <div className="flex justify-center text-gray-500 bg-teal-100 mt-20">
                 <div className="container flex flex-col items-center py-4">
                     <p className="text-xl font-bold">
                         Farmácia | Copyright: {data}
@@ -16,15 +16,15 @@ function Footer() {
 
                     <div className="flex gap-4 mt-2">
                         <a href="" target="_blank">
-                            <LinkedinLogoIcon size={48} weight="bold" className="hover:opacity-60" />
+                            <LinkedinLogoIcon size={48} weight="light" className="hover:opacity-60" />
                         </a>
 
                         <a href="" target="_blank">
-                            <InstagramLogoIcon size={48} weight="bold" className="hover:opacity-60" />
+                            <InstagramLogoIcon size={48} weight="light" className="hover:opacity-60" />
                         </a>
 
                         <a href="" target="_blank">
-                            <FacebookLogoIcon size={48} weight="bold" className="hover:opacity-60" />
+                            <FacebookLogoIcon size={48} weight="light" className="hover:opacity-60" />
                         </a>
                     </div>
                 </div>
