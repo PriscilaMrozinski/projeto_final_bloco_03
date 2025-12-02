@@ -1,4 +1,6 @@
 import { HeartbeatIcon, ShoppingCartIcon, UserCircleIcon } from "@phosphor-icons/react"
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
     return (
@@ -8,10 +10,13 @@ function Navbar() {
 
                     {/* Logo */}
                     <div className="flex items-center gap-3 w-1/2 py-6">
-                        <a href="#">
+                        <Link to="/home" className="flex items-center gap-3">
                             <HeartbeatIcon size={90} className="text-teal-200" />
-                        </a>
+                            <span className="text-teal-200 text-3xl font-bold">Farmácia</span>
+                        </Link>
                     </div>
+
+
 
                     {/* Menu */}
                     <nav className="md:flex items-center gap-6 text-[15px] font-semibold">
